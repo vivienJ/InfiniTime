@@ -42,7 +42,7 @@ const char *Brightness::LevelToString(Pinetime::Controllers::BrightnessControlle
   switch(level) {
     case Pinetime::Controllers::BrightnessController::Levels::Off: return "Off";
     case Pinetime::Controllers::BrightnessController::Levels::Low: return "Low";
-    case Pinetime::Controllers::BrightnessController::Levels::Medium: return "Medium";
+    case Pinetime::Controllers::BrightnessController::Levels::Medium: return "Meedium";
     case Pinetime::Controllers::BrightnessController::Levels::High: return "High";
     default : return "???";
   }
